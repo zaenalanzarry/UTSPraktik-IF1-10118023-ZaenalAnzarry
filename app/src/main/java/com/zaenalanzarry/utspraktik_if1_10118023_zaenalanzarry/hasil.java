@@ -1,5 +1,12 @@
 package com.zaenalanzarry.utspraktik_if1_10118023_zaenalanzarry;
 
+/*
+    Tanggal Pengerjaan : 5 Juni 2021
+    NIM   : 10118023
+    Nama  : Zaenal Anzarry
+    Kelas : IF1/S1/VI
+*/
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
