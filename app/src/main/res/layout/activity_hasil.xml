@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hasil"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen16">
+
+        <ImageView
+            android:id="@+id/tab"
+            android:layout_width="@dimen/dimen60"
+            android:layout_height="@dimen/dimen6"
+            android:layout_gravity="center"
+            android:src="@drawable/tab_atas"/>
+
+        <ImageView
+            android:id="@+id/imgmid"
+            android:layout_width="@dimen/dimen275"
+            android:layout_height="@dimen/dimen275"
+            android:layout_gravity="center"
+            android:src="@drawable/img_hasil"/>
+
+        <TextView
+            android:id="@+id/txt_simpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="Berhasil Disimpan"
+            android:textColor="@color/gray1"
+            android:textSize="@dimen/dimen16sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dimen8"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text=" Terima kasih, laporan Anda membantu kami"
+                android:textColor="@color/gray600"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dimen12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen2"
+                android:textSize="@dimen/dimen12sp"
+                android:fontFamily="@font/roboto"
+                android:text="dalam melakukan penanganan kasus secara"
+                android:textColor="@color/gray600"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/roboto"
+                android:textSize="@dimen/dimen12sp"
+                android:text="tepat."
+                android:textColor="@color/gray600"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnok"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen40"
+            android:layout_marginTop="@dimen/dimen40"
+            android:layout_marginBottom="@dimen/dimen16"
+            android:textSize="@dimen/dimen14sp"
+            android:fontFamily="@font/roboto"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:text="Ok"
+            android:background="@drawable/buttonsimpan"
+            android:onClick="pindahkeawal"/>
+
+    </LinearLayout>
+
+</LinearLayout>
